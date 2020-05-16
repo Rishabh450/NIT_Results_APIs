@@ -4,7 +4,7 @@ Tools used:
 ## BeautifulSoup : for web scrapping
 ## Docker : to create image of api
 ## heroku: for deploying the image
-## flask 
+## flask : Rest API
 
 A Restful api build in flask. Just enter your roll and get your result
 This api is developed to fetch results of NIT JSR Students.
@@ -34,10 +34,9 @@ All the routes are POST type.
 4)  https://nit-jsr-results.herokuapp.com/api/rank
    example :
    {
-      "roll":"2018ugcs015"
-      "semester":"2"
-      "method":"sgpa"
+      "roll":"2018ugcs015",
+      "semester":"2",
+      "method":"sgpa",
    }     
    
    
-   Dont try to understand the code. Many files are deleted for security reasons
