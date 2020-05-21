@@ -16,25 +16,25 @@ All the routes are POST type.
 1) https://nit-jsr-results.herokuapp.com/api/profile 
    example :
    {
-      "roll":"2018ugcs015"
+      "roll":"2018ugcs021"
    }
    
 2) https://nit-jsr-results.herokuapp.com/api/cgpa 
    example :
    {
-      "roll":"2018ugcs015"
+      "roll":"2018ugcs021"
    }
    
 3)  https://nit-jsr-results.herokuapp.com/api/results
    example :
    {
-      "roll":"2018ugcs015"
+      "roll":"2018ugcs021"
    } 
 
 4)  https://nit-jsr-results.herokuapp.com/api/rank
    example :
    {
-      "roll":"2018ugcs015",
+      "roll":"2018ugcs021",
       "semester":"2",
       "method":"sgpa",
    }     
